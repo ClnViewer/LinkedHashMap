@@ -2,7 +2,8 @@
     MIT License
 
     Copyright (c) 2018 PS
-    GitHub: https://github.com/ClnViewer/
+    GitHub: https://github.com/ClnViewer/LinkedHashMap
+    See example: https://github.com/ClnViewer/LinkedHashMap/blob/master/test/main.c
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
