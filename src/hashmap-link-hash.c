@@ -28,6 +28,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+// \todo (ClnViewer#1#08/29/18): remove this define.
 #if defined(__BUILD_HASHMAP)
 #   include "hashmap-link-hash.h"
 #else
