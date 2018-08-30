@@ -37,7 +37,6 @@
 					<Add option="-Wstrict-prototypes" />
 					<Add option="-fsanitize=leak" />
 					<Add option="-fsanitize=enum" />
-					<Add option="-D__BUILD_HASHMAP=1" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
