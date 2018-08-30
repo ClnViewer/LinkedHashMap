@@ -13,12 +13,6 @@ set(app_srcs
 
 add_executable( TestLinkHasMap ${app_srcs} )
 
-if(MSVC)
-    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} /D__BUILD_HASHMAP=1")
-else()
-    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -D__BUILD_HASHMAP=1")
-endif()
-
 if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE "Debug")
 endif()

@@ -10,7 +10,7 @@
 
     cd "${1}/build"
 
-    /usr/bin/gcc -std=gnu99 -Wall -pedantic -D__BUILD_HASHMAP=1 -I../src \
+    /usr/bin/gcc -std=gnu99 -Wall -pedantic -I../src \
         -Wfatal-errors -pedantic-errors \
         ../src/hashmap-link-hash.c ../test/main.c -o ./testDeployBuild
     rc=$?
