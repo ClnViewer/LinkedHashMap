@@ -34,6 +34,6 @@
     cd ..
     /usr/bin/git add .
     /usr/bin/git commit -m"split AutoDeploy from ${3} rev.${2}" --amend --author="AutoDeploy <no@nowrite.com>"
-    /usr/bin/git push origin
+    /usr/bin/git push origin --force
 
     exit ${rc}
