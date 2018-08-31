@@ -1,0 +1,8 @@
+pre:
+  - cd build/
+build:
+  - /usr/bin/gcc -std=gnu99 -Wall -pedantic -I../src -Wfatal-errors -pedantic-errors ../src/hashmap-link-hash.c ../test/main.c -o ./testDeployBuild
+  - ./testDeployBuild
+post:
+  - rm -f ./testDeployBuild
+  - echo "Ok"
